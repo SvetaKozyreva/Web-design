@@ -7,20 +7,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <script src = "myScript.js"></script>
   <header>
     <nav>
+      <button class="nav-toggle" onclick="toggleNav()">☰ Меню</button>
       <div class="nav-cont">
         <ul class="left">
           <li id="golovna"><a href="#">Головна</a></li>
         </ul>
         <ul class="right">
-          <li class="light_n"><a href="#science">Контакти</a></li>
+          <li class="light_n"><a href="#contacts">Контакти</a></li>
           <li class="light_n"><a href="#education">Освіта</a></li>
           <li class="light_n"><a href="#experience">Досвід роботи</a></li>
           <li class="light_n"><a href="#science">Наукова діяльність</a></li>
           <li class="light_n"><a href="#osvita">Освітня діяльність</a></li>
         </ul>
       </div>
+      
     </nav>
   </header>
 
@@ -155,7 +158,7 @@
       </div>
     </section>
   </main>
-  <footer class="section">
+  <footer id="contacts" class="section">
     <div>
       <h2>Контакти</h2>
       <div class="contact">
@@ -166,6 +169,7 @@
           <p>number: +380**********</p>
           <p><a href="#">GitHub</a> | <a href="#">LinkedIn</a> | <a href="#">Google Scholar</a></p>
         </div>
+      </div>  
     </div>
   </footer>
 </body>
